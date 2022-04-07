@@ -1,0 +1,15 @@
+<mat-sidenav-container>
+    <mat-sidenav [(opened)]="isopened">
+        <br>
+        something
+        <br>
+        someting else
+    </mat-sidenav>
+    
+    <mat-sidenav-content>
+      <button (click)="isopened = !isopened">open sidebar</button>
+      <div class="content"></div>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+  
