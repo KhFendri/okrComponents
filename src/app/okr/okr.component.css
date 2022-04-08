@@ -1,0 +1,15 @@
+#okr{
+    position: relative;
+    background-color: white;
+    border-radius: var(--br);
+    width: 300px;
+    display: flex;
+    flex-direction :column;
+
+}
+
+
+app-keyresult{
+    margin-left: auto;
+    right: 0em;
+}

@@ -12,7 +12,9 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle'
 import {MatIconModule,} from '@angular/material/icon'
 import {MatProgressSpinnerModule,} from '@angular/material/progress-spinner'
 import {MatToolbarModule} from '@angular/material/toolbar'
-import { MatBadgeModule } from '@angular/material/badge'
+import {MatBadgeModule } from '@angular/material/badge'
+import {MatCardModule} from '@angular/material/card';
+import { MatDividerModule } from "@angular/material/divider";
 /***********/
 import { FormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -29,7 +31,9 @@ const material =[
   MatIconModule,
   MatProgressSpinnerModule,
   MatToolbarModule,
-  MatBadgeModule
+  MatBadgeModule, 
+  MatCardModule,
+  MatDividerModule
 ]
 
 
