@@ -5,11 +5,12 @@
     width: 300px;
     display: flex;
     flex-direction :column;
-
+padding-bottom: 1em;
+gap: 1em;
 }
 
 
 app-keyresult{
     margin-left: auto;
-    right: 0em;
+    /* right: 0em; */
 }

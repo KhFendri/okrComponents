@@ -1,53 +1,64 @@
-::ng-deep :root {
-    --br: 0.4em;
-  }
-  
-  #keyresult {
-    position: relative;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: var(--br);
-  
-    font-size: 15px;
-  max-height: 50px;
-    width: 250px;
-  }
-  
-  h3,
-  p {
-    font-size: 1em;
-    /* padding: 0%;
+#keyresult {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: var(--br);
+
+  font-size: 15px;
+  /* max-height: 40px; */
+}
+
+#l1 {
+  display: flex;
+  width: 250px;
+  align-items: center;
+}
+
+#l2 {
+  width: 250px;
+  margin: 0%;
+}
+
+h3,
+p {
+  font-size: 1em;
+  /* padding: 0%;
     margin: 0%; */
-  }
-  #owner{
-    position: absolute;
-    font-size: 0.8em;
-    top: 1.5em;
-    left: 1.5em;
-    color: #617294;
-  }
-  
-  .icone {
-    height: 1em;
-    width: 1em;
-  }
-  
-  .kr_progress {
-    position: absolute;
-    right: 2em;
-  }
-  
-  #avatar{
-    position: absolute;
-    right: 4em;
-  }
-  
-  button{
-    position: absolute;
-    right: 0.5em;
-    
-  }
-  mat-icon{
-    width: 4px;
-  }
+}
+#kr_title {
+  max-width: 60%;
+  margin: 0em;
+}
+
+#owner {
+  font-size: 0.8em;
+  color: #617294;
+  margin: 0%;
+  margin-left: 10%;
+}
+
+.icone {
+  height: 1em;
+  width: 1em;
+  padding: 0.5em;
+}
+
+.kr_progress {
+  position: absolute;
+  right: 2em;
+}
+
+#avatar {
+  position: absolute;
+  right: 4em;
+}
+
+button {
+  position: absolute;
+  right: 0.5em;
+}
+mat-icon {
+  width: 4px;
+}
