@@ -11,9 +11,10 @@
 }
 
 #l1 {
-  display: flex;
-  width: 250px;
-  align-items: center;
+    
+    width: 250px;
+    align-items: center;
+    display: flex;
 }
 
 #l2 {
