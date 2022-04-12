@@ -1,16 +1,25 @@
-#okr{
-    position: relative;
-    background-color: white;
-    border-radius: var(--br);
-    width: 300px;
-    display: flex;
-    flex-direction :column;
-padding-bottom: 1em;
-gap: 1em;
+::ng-deep :root {
+  --br: 0.4em;
 }
 
+#okr {
+  position: relative;
+  background-color: white;
+  border-radius: var(--br);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  gap: 1em;
+}
 
-app-keyresult{
-    margin-left: auto;
-    /* right: 0em; */
+app-objective{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+app-keyresult {
+  margin-left: auto;
+  /* right: 0em; */
 }

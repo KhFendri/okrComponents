@@ -1,20 +1,20 @@
 #keyresult {
   display: flex;
-
+  position: relative;
   flex-direction: column;
   align-items: center;
   background-color: white;
   border-radius: var(--br);
 
   font-size: 15px;
+  max-width: 18.75rem;
   /* max-height: 40px; */
 }
 
 #l1 {
-    
-    width: 250px;
-    align-items: center;
-    display: flex;
+  width: 250px;
+  align-items: center;
+  display: flex;
 }
 
 #l2 {
@@ -22,11 +22,19 @@
   margin: 0%;
 }
 
+#l3 {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column;  */
+}
+
 h3,
 p {
   font-size: 1em;
-  /* padding: 0%;
-    margin: 0%; */
+  padding: 0%;
+    margin: 0%;
 }
 #kr_title {
   max-width: 60%;
@@ -43,12 +51,13 @@ p {
 .icone {
   height: 1em;
   width: 1em;
-  padding: 0.5em;
+  margin-right: 00.5em;
 }
 
-.kr_progress {
+/* .kr_progress {
   position: absolute;
   right: 2em;
+  margin: 0%;
 }
 
 #avatar {
@@ -62,4 +71,4 @@ button {
 }
 mat-icon {
   width: 4px;
-}
+} */

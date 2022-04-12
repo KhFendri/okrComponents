@@ -23,6 +23,7 @@ import { OkrComponent } from './okr/okr.component';
 import { ObjectiveComponent } from './okr/objective/objective.component';
 import { KeyresultComponent } from './okr/keyresult/keyresult.component';
 import { DropdownTogglerComponent } from './appassets/dropdown-toggler/dropdown-toggler.component';
+import { SessionsComponent } from './sessions/sessions.component';
 
 const material =[
   MatSidenavModule, //sidenav
@@ -46,6 +47,7 @@ const material =[
     ObjectiveComponent,
     KeyresultComponent,
     DropdownTogglerComponent,
+    SessionsComponent,
 
   ],
   imports: [

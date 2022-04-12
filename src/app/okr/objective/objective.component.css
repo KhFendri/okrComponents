@@ -1,108 +1,75 @@
-::ng-deep :root {
-  --br: 0.4em;
-}
-
 #objective {
-  position: relative;
   display: flex;
+  position: relative;
+  flex-direction: column;
   align-items: center;
   background-color: white;
   border-radius: var(--br);
-
+  
   font-size: 15px;
+  max-width: 18.75rem;
+  /* max-height: 40px; */
+}
 
-  width: 300px;
+#l1 {
+  width: 250px;
+  align-items: center;
+  display: flex;
+}
+
+#l2 {
+  width: 250px;
+  margin: 0%;
+}
+
+#l3 {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column;  */
 }
 
 h3,
 p {
   font-size: 1em;
+  padding: 0%;
+  margin: 0%;
 }
-#owner{
-  position: absolute;
+#obj_title {
+  max-width: 60%;
+  margin: 0em;
+}
+
+#owner {
   font-size: 0.8em;
-  top: 1.5em;
-  left: 1.5em;
   color: #617294;
+  margin: 0%;
+  margin-left: 10%;
 }
 
 .icone {
   height: 1em;
   width: 1em;
+  margin-right: 00.5em;
 }
 
 .obj_progress {
-  position: absolute;
-  right: 2em;
+  /* position: absolute; */
+  /* right: 2em;
+  margin: 0%; */
 }
 
-#avatar{
-  position: absolute;
-  right: 4em;
+#avatar {
+  /* position: absolute; */
+  /* right: 4em; */
 }
 
-button{
-  position: absolute;
-  right: 0.5em;
-  
+button {
+  /* position: absolute; */
+  /* right: 0.5em; */
 }
-mat-icon{
-  width: 4px;
+mat-icon {
+  /* width: 4px; */
+  /* transform: scale(0.2); */
 }
-
-/* #obj{
-  display: flex;
-  flex-direction: column;
-  background-color: aqua;
-  width:250px;
-  max-width:250px;
-  height: 12px;
-  
-}
-
-#l1 {
-  background-color: blueviolet;
-  display: flex; 
-  align-items: center;
-
-
-}
-
-#l2{
-background-color: chartreuse;
-padding: 0px;
-}
-
-#objProgress {
-    display: flex;
-}
-
-.icone-title-wrapper {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  line-height: 1;
-
-}
-.icone {
-  height: 1em; 
-  width: 1em; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-}
-span {
-  margin: 0 0 0 .25em;
-}
-
-app-dropdown-toggler{
-  align-self: flex-end;
-}
-
-#test{
-  background-color: burlywood;
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
-}  */
