@@ -53,23 +53,3 @@ p {
   width: 1em;
   margin-right: 00.5em;
 }
-
-.obj_progress {
-  /* position: absolute; */
-  /* right: 2em;
-  margin: 0%; */
-}
-
-#avatar {
-  /* position: absolute; */
-  /* right: 4em; */
-}
-
-button {
-  /* position: absolute; */
-  /* right: 0.5em; */
-}
-mat-icon {
-  /* width: 4px; */
-  /* transform: scale(0.2); */
-}

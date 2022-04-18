@@ -1,0 +1,15 @@
+form {
+  max-width: 65rem;
+  background-color: white;
+  border-radius: var(--br);
+  padding: 2rem;
+}
+
+/* option{
+    display: flex;
+    flex-wrap: column;
+} */
+
+.form-group {
+  margin: 3%;
+}

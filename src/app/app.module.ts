@@ -24,6 +24,8 @@ import { ObjectiveComponent } from './okr/objective/objective.component';
 import { KeyresultComponent } from './okr/keyresult/keyresult.component';
 import { DropdownTogglerComponent } from './appassets/dropdown-toggler/dropdown-toggler.component';
 import { SessionsComponent } from './sessions/sessions.component';
+import { FormKeyresultAddComponent } from './forms/form-keyresult-add/form-keyresult-add.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const material =[
   MatSidenavModule, //sidenav
@@ -35,6 +37,7 @@ const material =[
   MatBadgeModule, 
   MatCardModule,
   MatDividerModule
+  NgbdDatepickerBasic
 ]
 
 
@@ -48,6 +51,7 @@ const material =[
     KeyresultComponent,
     DropdownTogglerComponent,
     SessionsComponent,
+    FormKeyresultAddComponent,
 
   ],
   imports: [
@@ -60,5 +64,7 @@ const material =[
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
   
